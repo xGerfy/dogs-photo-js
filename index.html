@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="getSelectOptions()">
+    <div id="container">
+      <h2>Выберите породу собаки</h2>
+      <div class="select__button">
+        <select id="breed" name="breeds"></select>
+        <button onclick="getPhoto()">Получить фото</button>
+      </div>
+      <div id="imageContainer"></div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
